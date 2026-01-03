@@ -1,0 +1,23 @@
+---
+import { ClientRouter } from "astro:transitions";
+import "../styles/global.css";
+import ClientScripts from "./ClientScripts";
+
+const { params } = Astro;
+---
+
+<!doctype html>
+<html lang="en" transition:animate="none">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Friendsify - Chat</title>
+		<ClientRouter />
+	</head>
+	<body>
+		<ClientScripts client:only params={params} />
+		<slot />
+	</body>
+</html>

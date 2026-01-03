@@ -1,7 +1,8 @@
 {
-  "name": "react",
+  "name": "ui-components",
   "type": "module",
   "version": "0.0.1",
+  "description": "Reusable UI component library",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -9,6 +10,25 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.16.6"
+    "@astrojs/react": "^4.4.2",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.16.6",
+    "axios": "^1.13.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.562.0",
+    "mongoose": "^9.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.0.0"
   }
 }
