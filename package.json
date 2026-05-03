@@ -1,7 +1,7 @@
 {
   "name": "ui-components",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Reusable UI component library",
   "scripts": {
     "dev": "astro dev",
